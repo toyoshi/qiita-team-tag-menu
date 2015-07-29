@@ -1,0 +1,14 @@
+.markdownContent.qttm-menu h1 {
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.markdownContent.qttm-menu h2,
+.markdownContent.qttm-menu h3 {
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+.markdownContent.qttm-menu a {
+  color: #337ab7;
+}

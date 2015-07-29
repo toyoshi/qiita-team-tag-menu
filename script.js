@@ -1,9 +1,10 @@
 $(function(){
   $.ajax({
-    url: '/tags'
+    url: '/projects/6026'
   })
   .done(function(data){
-    $(".teamSidebarContainer_sub").prepend($("div.panel.panel-default",data))
-  }
-  )
+    var mainContents = $("div.markdownContent",data);
+    mainContents.addClass('qttm-menu');
+    $(".teamSidebarContainer_sub").prepend(mainContents)
+  })
 });

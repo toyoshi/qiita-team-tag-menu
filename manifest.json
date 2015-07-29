@@ -2,12 +2,13 @@
   "name": "QiitaTeamTagMenu",
   "version": "0.1",
   "manifest_version": 2,
-  "description": "Qiita:Teamにタグのメニューを表示する拡張",
+  "description": "Qiita:Teamのサイドバーに任意の投稿を表示させる拡張",
   "content_scripts": [
     {
       "matches": ["https://*.qiita.com/*"],
       "js": ["jquery.min.js","script.js"],
-	  "run_at": "document_start"
+      "css": ["style.css"],
+      "run_at": "document_start"
     }
   ]
 }
