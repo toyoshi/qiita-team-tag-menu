@@ -1,2 +1,2 @@
 # qiita-team-tag-menu
-Qiita:Teamにタグメニューを常に表示するChrome拡張
+Qiita:Teamの右側に任意のページのコンテンツを表示するChrome拡張
